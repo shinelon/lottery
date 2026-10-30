@@ -1,5 +1,9 @@
 # 双色球 / 大乐透 分析与选号工具
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen?style=flat-square)
+![Predictive power](https://img.shields.io/badge/predictive%20power-none-lightgrey?style=flat-square)
+
 两套独立的流水线，流程相同、数据与产物分开：`ssq.py`（双色球）与 `dlt.py`（超级大乐透）。
 
 按「历史数据 → 特征 → 选号 → 盲测 → 复盘」的流程，每期生成 5 注单式和一份分析报告。

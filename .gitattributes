@@ -1,0 +1,12 @@
+# 换行统一：仓库内存 LF，检出时源码/文档也用 LF
+*         text=auto
+*.py      text eol=lf
+*.md      text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.json    text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# CSV 保持 CRLF，方便 Excel 直接双击打开（编码仍是 utf-8-sig）
+*.csv     text eol=crlf
